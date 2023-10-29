@@ -1,0 +1,91 @@
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.login form {
+  text-align: center;
+  max-width: 300px; /* Adjust the width as needed */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  
+}
+
+.showPasswordDiv{
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  
+}
+
+.showPassword{
+  color: blue;
+  background-color: white;
+  border: none;
+  margin-bottom: 10px;
+}
+
+
+.showPassword  :hover{
+  background-color: none;
+  color: blue;
+}
+
+button{
+  width: 150px;
+  padding: 10px;
+  background-color: #a2caf6;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  /* background-color: #b9dbfe;  */
+  color: rgb(255, 8, 8);/* Change the background color on hover */
+}
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  height: 100vh; /* Set the height to 100% of the viewport height for full-page centering */
+}
+
+
+.login input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 1px solid blue;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background-color: #68a7f5;
+}
+
+
+
+/* You can add more styles as needed for your specific design */
